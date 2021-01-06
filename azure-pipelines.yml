@@ -16,7 +16,7 @@ steps:
     azureResourceManagerConnection: 'Azurepipeline-demo-connection'
     subscriptionId: '128ce48b-9521-42ad-bd41-10a7a96ca4d2'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'pipeline-demo'
+    resourceGroupName: 'pipeline-demo1'
     location: 'Australia Central'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
