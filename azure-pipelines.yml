@@ -20,6 +20,6 @@ steps:
     location: 'Australia Central'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName CIdemo -linkedTemplateUri https://raw.githubusercontent.com/thomasnli/Azurepipeline-demo/main/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName cidemo21 -linkedTemplateUri https://raw.githubusercontent.com/thomasnli/Azurepipeline-demo/main/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     Deployment name: 'DeployPipelineTemplate'
